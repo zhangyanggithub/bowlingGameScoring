@@ -202,19 +202,3 @@
             return flag;
         }
     };
-
-let scoreArr = [
-         10,
-            [ 7, 10 ],
-            [ 9, 0 ],
-            10,
-            [ 0, 8 ],
-            [ 8, 10 ],
-            [ 0, 6 ],
-            10,
-            10,
-            [2,10]],
-    addArr = [1],
-    bgs = new BowlingGameScoring('');
-    let str = 'X|7/|9-|-8|81|5/||X';
-    console.log(bgs.judgeBowlingScoringStr(str));
