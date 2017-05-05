@@ -1,0 +1,7 @@
+保龄球积分规则算法
+1新建构造函数
+2通过judgeBowlingScoringStr判断输入是否合法，不合法则返回false，否则进行下一步
+3通过scoringStrToArray方法将输入的字符串以‘||’分割为数组,数组的第一个元素以‘|’分割为commonScoreArr，第二个元素为addScoreArr，其中将对应的字符转为数字；
+4遍历数组commonScoreArr到其倒数第2个元素，通过getDiffPosScore方法根据元素值的类别求其分值。
+5求commonScoreArr倒数第1个元素的分值
+6将4和5步对应的分值求和即为总得分
